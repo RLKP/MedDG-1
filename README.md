@@ -17,7 +17,7 @@ For the task of topic prediction  (e.g. run the LSTM baseline):
 
 ```shell
 cd topic_predict
-allennlp train ../config/topic_predict/lstm_baseline.json --include-package basline -s tmp/lstm1
+allennlp train ../config/topic_predict/lstm_baseline.json --include-package baseline -s tmp/lstm1
 ```
 
 For the task of response generation (e.g. run the seq2seq baseline):
